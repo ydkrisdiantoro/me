@@ -8,7 +8,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>My Portfolio Website</title>
+    <title>Profile - Yayan Deka</title>
+    <meta name="description" content="Yayan Deka, full-stack Laravel developer specializing in backend best practices and interactive UI with Blade, Bootstrap, and Vanilla JavaScript. Also a vector designer and aspiring novelist.">
 </head>
 
 <body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="0" tabindex="0">
@@ -16,18 +17,17 @@
     <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-white fixed-top py-lg-3 shadow-sm">
         <div class="container">
             <a class="navbar-brand" href="/">
-                <b>Your <span class="text-primary">Name</span>.</b>
+                <b>Yayan <span class="text-primary">Deka</span>.</b>
             </a>
-            <button class="navbar-toggler border-0 p-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler border-0 p-0" type="button" data-bs-toggle="collapse" data-bs-target="#togglerNavbar" aria-controls="togglerNavbar" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="bi bi-list fs-1"></i>
-                <!-- <span class="navbar-toggler-icon"></span> -->
             </button>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <div class="collapse navbar-collapse" id="togglerNavbar">
                 <ul class="navbar-nav ms-lg-auto mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link mx-lg-3 px-0" href="#profile">
                             <span class="">Profile</span>
-                        </a>
+                        </a> 
                     </li>
                     <li class="nav-item">
                         <a class="nav-link mx-lg-3 px-0" href="#experiences">
@@ -50,8 +50,7 @@
                         </a>
                     </li>
                 </ul>
-                <div class="
-                                    d-lg-none" style="height: 100vh">
+                <div class="d-lg-none" style="height: 100vh">
                 </div>
             </div>
         </div>
@@ -61,31 +60,26 @@
     <!-- Profile Section -->
     <section id="profile">
         <div class="container pt-lg-5">
-            <div class="row py-5 fs-5">
-                <div class="col-12 col-lg-6 my-auto">
+            <div class="row py-5 fs-5 px-3">
+                <div class="col-12 col-lg-7 my-auto">
                     <div id="profile-text">
-                        <span>Hello, let me introduce about myself.</span>
-                        <h1 class="title-styled py-3">MY NAME IS <a href="#" class="text-primary text-decoration-none" id="my-name">YOUR LONG NAME</a></h1>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est fugit quam excepturi, ab necessitatibus id explicabo quibusdam delectus pariatur facere. Doloribus asperiores alias fugiat delectus inventore laudantium tempore ex. Rerum.</p>
+                        <span>Hello, there ...</span>
+                        <h1 class="title-styled py-3">MY NAME IS <a href="#" class="text-primary text-decoration-none" id="my-name">YAYAN DWI KRISDIANTORO</a></h1>
+                        <p>Full-stack Laravel developer specializing in backend best practices and interactive UI with Blade, Bootstrap, and Vanilla JavaScript. Also a vector designer and aspiring novelist.</p>
                         <ul class="list-unstyled">
                             <li>
-                                <i class="bi bi-mailbox"></i> yourmail@mail.mail
+                                <i class="bi bi-mailbox"></i> y.d.krisdiantoro@gmail.com
                             </li>
                             <li>
-                                <i class="bi bi-instagram"></i> Your Social Media
-                            </li>
-                            <li>
-                                <i class="bi bi-phone"></i> +111111111
+                                <i class="bi bi-instagram"></i> @y.d.krisdiantoro
                             </li>
                         </ul>
-                        <button class="btn btn-primary rounded-pill px-4 fs-5 mb-5 mb-lg-0">DOWNLOAD MY CV</button>
                     </div>
                 </div>
-                <div class="col-12 col-lg-6 px-lg-5">
-                    <div id="profile-image" class="position-relative d-flex rounded">
-                        <img src="assets/img/profile-image.jpg" alt="profile-image" class="w-100">
-                        <div id="profile-image-name" class="position-absolute">
-                            <span class="bg-primary text-white p-3">Your Primary Title</span>
+                <div class="col-12 col-lg-5 px-lg-5">
+                    <div class="m-lg-3">
+                        <div id="profile-image" class="position-relative d-flex">
+                            <img src="assets/img/profile.png" alt="profile-image" class="w-100">
                         </div>
                     </div>
                 </div>
@@ -95,11 +89,11 @@
     <!-- End of Profile Section -->
 
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path fill="#0d6efd" fill-opacity="1" d="M0,160L34.3,160C68.6,160,137,160,206,144C274.3,128,343,96,411,117.3C480,139,549,213,617,234.7C685.7,256,754,224,823,192C891.4,160,960,128,1029,138.7C1097.1,149,1166,203,1234,224C1302.9,245,1371,235,1406,229.3L1440,224L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path>
+        <path fill="#eee" fill-opacity="1" d="M0,160L34.3,160C68.6,160,137,160,206,144C274.3,128,343,96,411,117.3C480,139,549,213,617,234.7C685.7,256,754,224,823,192C891.4,160,960,128,1029,138.7C1097.1,149,1166,203,1234,224C1302.9,245,1371,235,1406,229.3L1440,224L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path>
     </svg>
 
     <!-- Eperiences Section -->
-    <section id="experiences" class="bg-primary text-white">
+    <section id="experiences" class="bg-light-2 text-white">
         <div class="container py-5">
             <div class="row fs-5">
                 <div class="col-12">
@@ -160,7 +154,7 @@
                 </div> -->
                 <div class="position-relative w-100 h-100">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-                        <path fill="#0d6efd" fill-opacity="1" d="M0,128L40,117.3C80,107,160,85,240,106.7C320,128,400,192,480,224C560,256,640,256,720,240C800,224,880,192,960,165.3C1040,139,1120,117,1200,133.3C1280,149,1360,203,1400,229.3L1440,256L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path>
+                        <path fill="#eee" fill-opacity="1" d="M0,128L40,117.3C80,107,160,85,240,106.7C320,128,400,192,480,224C560,256,640,256,720,240C800,224,880,192,960,165.3C1040,139,1120,117,1200,133.3C1280,149,1360,203,1400,229.3L1440,256L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path>
                     </svg>
                     <div class="container">
                         <div class="row py-5">
